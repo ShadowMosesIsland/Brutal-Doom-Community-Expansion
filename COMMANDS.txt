@@ -125,7 +125,7 @@ Script "BDDualWield" (VOID) NET
 //Faster
 script "BDSprint" (void)
 {
-	if (checkinventory("istacticalclass") == 1) { SetActorProperty (0, APROP_Speed, 2.2); }
+	if (checkinventory("istacticalclass") == 1) { SetActorProperty (0, APROP_Speed, 1.6); }
 	delay (13);
 	if (checkinventory("istacticalclass") == 1) { SetActorProperty (0, APROP_Speed, 1.1); }
 }
