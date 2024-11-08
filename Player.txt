@@ -54,6 +54,7 @@ ACTOR Doomer : PlayerPawn Replaces DoomPlayer
 	{
     Spawn:
 		MARN A 0
+		NULL A 0 ACS_NamedExecuteAlways("BDForceClass", 0, 0, 0, 0) //change player class if cvar bd_forceclass isn't empty.
 		NULL A 0 SetPlayerProperty(0,0,0)//unfreeze on level change/death when in a vehicle
 		NULL A 0 SetPlayerProperty(0,0,4)//unfreeze on level change/death when on the bike
 		TNT1 A 0 A_Changeflag("NOPAIN", 0)

@@ -729,3 +729,56 @@ Script "RemoveMarineFlame" (VOID) NET
 {
 	NumberofAlliesFlame--;
 }
+
+Script "BDForceClass" (VOID)
+{
+	if(GetCvar("isrunningzandronum") == 0) {
+		terminate;
+	}
+	int ForcedClassNum = GetCvar("bd_forceclass");
+	if(ForcedClassNum > -1 && PlayerClass(PlayerNumber()) != ForcedClassNum)
+	{
+		str ForcedClassName = "";
+		switch(ForcedClassNum)
+		{
+		case 0:
+			ForcedClassName = "BDoomer";
+			break;
+		case 1:
+			ForcedClassName = "Doomer3";
+			break;
+		case 2:
+			ForcedClassName = "Doomer2";
+			break;
+		case 3:
+			ForcedClassName = "ArcadeDoomer";
+			break;
+		case 4:
+			ForcedClassName = "ArcadeDoomer3";
+			break;
+		case 5:
+			ForcedClassName = "ArcadeDoomer2";
+			break;
+		case 6:
+			ForcedClassName = "TacticalDoomer";
+			break;
+		case 7:
+			ForcedClassName = "Purist";
+			break;
+		}
+		SetPlayerClass(PlayerNumber(), ForcedClassName, true);
+		Print(s:"Your class was changed to: ",s:ForcedClassName);
+		
+		// Workaround for Zandronum bug in Survival, SetPlayerClass function
+		// respawn not working properly mid-game in Survival mode, allowing 
+		// players to bypass the forced class rule. Just kill the player instead.
+		if(StrIcmp(GetCurrentGameMode(), "Survival") == 0 && GetGameModeState() == 2)
+		{
+			//Player is invulnerable no matter what for the first
+			//few seconds. Probably the reason why respawn does not work.
+			Delay(150); 
+			Print(s:"Changing class is not allowed.");
+			Thing_Damage(PlayerNumber(), 9999, MOD_CRUSH);
+		}
+	}
+}

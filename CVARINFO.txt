@@ -51,3 +51,5 @@ server int bd_disablereloading = 0;
 server int bd_disableautoreload = 0;
 //allow for the vanilla fuzzy rendering of the spectre
 server int bd_fuzzyspectre = 0;
+
+server int bd_forceclass = -1;
