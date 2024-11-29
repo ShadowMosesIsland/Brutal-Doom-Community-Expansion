@@ -7,3 +7,4 @@
 //								to resemble vanilla texture more. Removed old lava
 //								flats.
 //
+//  WeaponSpawners.txt			Increased Revolver spawn chance.
