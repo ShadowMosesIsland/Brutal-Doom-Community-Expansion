@@ -1,0 +1,9 @@
+//  Author: ShadowMosesIsland
+//
+//  v0.1.0
+//	======
+//  ANIMDEFS.txt:				Reverted brutalv21 non-animated warped lava.
+//  Textures/LIQUIDS			Reverted old lava flat and fall, changed nukage
+//								to resemble vanilla texture more. Removed old lava
+//								flats.
+//

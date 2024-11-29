@@ -99,40 +99,8 @@ flat FHDI01//icewater
 	pic FHDI30 tics 1
 	pic FHDI31 tics 1
 	pic FHDI32 tics 1
-
-Flat LAVAFL
-	pic FHDL01	tics 1
-	pic FHDL02	tics 1
-	pic FHDL03	tics 1
-	pic FHDL04	tics 1
-	pic FHDL05	tics 1
-	pic FHDL06	tics 1
-	pic FHDL07	tics 1
-	pic FHDL08	tics 1
-	pic FHDL09	tics 1
-	pic FHDL10	tics 1
-	pic FHDL11	tics 1
-	pic FHDL12	tics 1
-	pic FHDL13	tics 1
-	pic FHDL14	tics 1
-	pic FHDL15	tics 1
-	pic FHDL16	tics 1
-	pic FHDL17	tics 1
-	pic FHDL18	tics 1
-	pic FHDL19	tics 1
-	pic FHDL20	tics 1
-	pic FHDL21	tics 1
-	pic FHDL22	tics 1
-	pic FHDL23	tics 1
-	pic FHDL24	tics 1
-	pic FHDL25	tics 1
-	pic FHDL26	tics 1
-	pic FHDL27	tics 1
-	pic FHDL28	tics 1
-	pic FHDL29	tics 1
-	pic FHDL30	tics 1
-	pic FHDL31	tics 1
-	pic FHDL32	tics 1
+	
+warp flat LAVAFL
 
 Flat MAGEFL
 	pic FHDM01	tics 1
@@ -615,6 +583,38 @@ pic LFALL29	tics 1
 pic LFALL30 tics 1
 pic LFALL31 tics 1
 pic LFALL32 tics 1
+pic LFALL33	tics 1
+pic LFALL34	tics 1
+pic LFALL35	tics 1
+pic LFALL36	tics 1
+pic LFALL37	tics 1
+pic LFALL38	tics 1
+pic LFALL39	tics 1
+pic LFALL40	tics 1
+pic LFALL41	tics 1
+pic LFALL42	tics 1
+pic LFALL43	tics 1
+pic LFALL44	tics 1
+pic LFALL45	tics 1
+pic LFALL46	tics 1
+pic LFALL47	tics 1
+pic LFALL48	tics 1
+pic LFALL49	tics 1
+pic LFALL50	tics 1
+pic LFALL51	tics 1
+pic LFALL52	tics 1
+pic LFALL53	tics 1
+pic LFALL54	tics 1
+pic LFALL55	tics 1
+pic LFALL56	tics 1
+pic LFALL57	tics 1
+pic LFALL58	tics 1
+pic LFALL59	tics 1
+pic LFALL60	tics 1
+pic LFALL61	tics 1
+pic LFALL62 tics 1
+pic LFALL63 tics 1
+pic LFALL64 tics 1
 
 texture MFALL01//magenta fall
 pic MFALL01	tics 1
