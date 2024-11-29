@@ -1,6 +1,6 @@
 ACTOR BDoomer : Doomer
 {
-	Player.DisplayName "Rifle Start"
+	Player.DisplayName "Normal Rifle"
 	Player.StartItem "Rifle"
 	Player.StartItem "Melee_Attacks"
 	Player.StartItem "HandGrenades", 1
@@ -36,7 +36,7 @@ ACTOR BDoomer : Doomer
 	Species "Marines"
 }
 
-ACTOR Doomer2 : Doomer
+/*ACTOR Doomer2 : Doomer
 {
 	Player.DisplayName "Pistol Start"
 	Player.StartItem "BrutalPistol"
@@ -72,9 +72,9 @@ ACTOR Doomer2 : Doomer
 	Player.StartItem "GrenadeAmmo", 1
 	Player.StartItem "AmmoDroper"
 	Species "Marines"
-}
+}*/
 
-ACTOR Doomer3 : Doomer
+/*ACTOR Doomer3 : Doomer
 {
 	Player.DisplayName "Shotgun Start"
 	Player.StartItem "Shot_Gun"
@@ -110,9 +110,9 @@ ACTOR Doomer3 : Doomer
 	Player.StartItem "GrenadeAmmo", 1
 	Player.StartItem "AmmoDroper"
 	Species "Marines"
-}
+}*/
 
-ACTOR ArcadeDoomer : Doomer
+/*ACTOR ArcadeDoomer : Doomer
 {
 	Player.DisplayName "Arcade Rifle (No Reload)"
 	Player.StartItem "Rifle"
@@ -149,9 +149,9 @@ ACTOR ArcadeDoomer : Doomer
 	Player.StartItem "GrenadeAmmo", 1
 	Player.StartItem "AmmoDroper"
 	Species "Marines"
-}
+}*/
 
-ACTOR ArcadeDoomer2 : Doomer
+/*ACTOR ArcadeDoomer2 : Doomer
 {
 	Player.DisplayName "Arcade Pistol (No Reload)"
 	Player.StartItem "BrutalPistol"
@@ -188,9 +188,9 @@ ACTOR ArcadeDoomer2 : Doomer
 	Player.StartItem "GrenadeAmmo", 1
 	Player.StartItem "AmmoDroper"
 	Species "Marines"
-}
+}*/
 
-ACTOR ArcadeDoomer3 : Doomer
+/*ACTOR ArcadeDoomer3 : Doomer
 {
 	Player.DisplayName "Arcade Shotgun (No Reload)"
 	Player.StartItem "Shot_Gun"
@@ -227,7 +227,7 @@ ACTOR ArcadeDoomer3 : Doomer
 	Player.StartItem "GrenadeAmmo", 1
 	Player.StartItem "AmmoDroper"
 	Species "Marines"
-}
+}*/
 
 ACTOR TacticalDoomer : Doomer
 {
@@ -268,7 +268,7 @@ ACTOR TacticalDoomer : Doomer
 	Species "Marines"
 }
 
-ACTOR Purist : Doomer
+/*ACTOR Purist : Doomer
 {
 	Player.DisplayName "Purist (Classic Weapons)"
 	Player.StartItem "ClassicPistol"
@@ -279,7 +279,7 @@ ACTOR Purist : Doomer
 	Player.StartItem "IsNOTTacticalClass", 1
 	Player.StartItem "GrenadeAmmo", 1
 	Species "Marines"
-}
+}*/
 
 actor ChaseCam2
 {
