@@ -11,3 +11,5 @@
 //
 //  FootSteps.txt				Commented out every class other than Rifle Start
 //								(renamed to "Normal Rifle") and Tactical.
+//
+//  FootSteps.txt				Nevermind. Too much work to remove references for now.
