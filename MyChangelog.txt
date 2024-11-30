@@ -13,3 +13,8 @@
 //								(renamed to "Normal Rifle") and Tactical.
 //
 //  FootSteps.txt				Nevermind. Too much work to remove references for now.
+//
+//	v0.2.0
+//	======
+//	MAPINFO.txt					Depussified Realism to 600% damage increase.
+//								Revamped Realism skill levels in general.
